@@ -50,17 +50,21 @@ React Native Maps - Componentes de mapa
 
 1. Clone o repositório
 
+```
 git clone https://github.com/Beattriz05/my-maps.git
 
 cd my-maps
+```
 
 2. Instale as dependências
 
+```
 npm install
 
   ou
 
 yarn install
+ ```
 
 3. Configure as chaves da API Google Maps
 Para Android:
@@ -77,7 +81,8 @@ Para Android:
 
 4- No arquivo app.json, substitua:
 
-"android": {
+```
+ "android": {
 
   "config": {
 
@@ -90,20 +95,21 @@ Para Android:
   }
 
 }
+```
 
 4. Instale as dependências específicas do Expo
 
-npx expo install react-native-maps expo-location @expo/vector-icons
+``` npx expo install react-native-maps expo-location @expo/vector-icon ```
 
 <h4> Como Executar </h4>
 
 - Iniciar o projeto:
 
-npx expo start
+``` npx expo start ```
 
 - Executar no Android:
 
-npx expo start --android
+``` npx expo start --android ```
 
 - Build para Android:
-npx eas build --platform android
+``` npx eas build --platform android ```
